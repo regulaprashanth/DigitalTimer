@@ -1,0 +1,135 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to left, #defafe, #cffcf1, #ffffff);
+  height: 100vh;
+  background-size: cover;
+}
+
+.appHeading {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.appTimerContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.displayTimerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.displayTimer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.timerValue {
+  font-size: 25px;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+.timerStatus {
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.timerControllersAndLimitContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerControllerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.playOrPauseButtonsContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.playOrPauseIcon {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.playOrPauseButtons {
+  background-color: transparent;
+  border: none;
+}
+.resetButtonContainer {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.resetIcon {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+.resetButton {
+  background-color: transparent;
+  border: none;
+}
+.timerLimitControllersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.controllersContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.timerControllersStatus {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+.timerLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 40px;
+  width: 60px;
+  background-position: center;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.timerLimitButtons {
+  color: #1e293b;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
